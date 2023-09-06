@@ -7,6 +7,7 @@ func main() {
 }
 
 func Soma(a int, b int) int {
-	return a + b
-
+	c := a + b
+	fmt.Println("DEU CERTO")
+	return c
 }

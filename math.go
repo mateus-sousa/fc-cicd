@@ -13,3 +13,7 @@ func Sum(a int, b int) int {
 func Sub(a int, b int) int {
 	return a - b
 }
+
+func Mult(a int, b int) int {
+	return a * b
+}

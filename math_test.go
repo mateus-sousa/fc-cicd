@@ -17,3 +17,10 @@ func TestSub(t *testing.T) {
 		t.Errorf("Valor recebido %d não bate com o valor esperado %d.", total, 5)
 	}
 }
+
+func TestMult(t *testing.T) {
+	total := Mult(15, 10)
+	if total != 150 {
+		t.Errorf("Valor recebido %d não bate com o valor esperado %d.", total, 150)
+	}
+}
